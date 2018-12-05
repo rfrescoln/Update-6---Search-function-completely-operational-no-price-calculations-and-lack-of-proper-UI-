@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <!-- CS:2420 Group 3-->
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <title>Group 3 - Manager Delete Vendor</title>
+    </head>
+
+    <body>
+        <div class="col d-flex justify-content-center">
+            <div class="container-fluid">
+                <div class="card text-center w-90">
+                      <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs">
+                          <li class="nav-item">
+                            <a class="nav-link" href="/ManagerHome">Home</a>
+                          </li>
+                        </ul>
+                      </div>
+                    <div class="card-body">
+                        <h2>Delete Vendor</h2>
+                        <form action="" method="post">
+                            VendorName:<br>
+                            <input type="text" name="VendorName" value="{{request.form.VendorName}}"><br>
+                            <input type="submit" value="Delete">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
